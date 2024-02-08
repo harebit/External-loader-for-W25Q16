@@ -1,0 +1,5 @@
+Write in 
+
+Build->Settings->BuildSteps->Post-build steps
+
+cmd.exe /C copy/Y  "${BuildArtifactFileBaseName}.elf" "..\W25Q16_STM32F407VET.stldr"
